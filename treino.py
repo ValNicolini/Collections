@@ -1,8 +1,4 @@
 
-data_sience = {15, 23, 43, 56}
-machine = {13, 23, 56, 42}
-
-usuarios = data_sience | machine
-
-
-print(usuarios)
+texto = 'vamos fugir desse lugar e fugir vamos'
+print(texto.split())
+print(set(texto.split()))
